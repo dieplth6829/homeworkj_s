@@ -1,0 +1,87 @@
+#commoncolor {
+    background: #16a085;
+    color: #16a085;
+}
+.center {
+    border-radius: 4px;
+    position: relative;
+    width: 540px;
+    margin: 100px auto;
+    padding: 100px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    background: #f7f7f7;
+    padding: 50px 50px 20px 50px;
+}
+.quote {
+    font-weight: 500;
+    font-size: 1.75em;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+.author {
+    font-weight: normal;
+    text-align: right;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#twitter {
+    /* background-color: #16a085; */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    fill: white;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+#twitterbackground {
+    background-color: #16a085;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 3px;
+    margin-left: -25px;
+}
+.quoteBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+#btn {
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    font-size: 0.85em;
+    padding: 10px 18px 6px 18px;
+    margin-top: 20px;
+    background-color: #16a085;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 70%;
+    right: 30px;
+    cursor: pointer;
+  }
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    padding-top: 60px;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
